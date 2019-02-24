@@ -248,7 +248,7 @@ define(["api/SplunkVisualizationBase","api/SplunkVisualizationUtils"], function(
 	            this.$container_wrap = $(this.el);
 	            this.$container_wrap.addClass('clock_viz-wrap-parent');
 	            this.$container = $("<div class='clock_viz-wrap'></div>").appendTo(this.$container_wrap);
-	            if (vizUtils.getCurrentTheme() === 'dark') {
+	            if (typeof vizUtils.getCurrentTheme === "function" && vizUtils.getCurrentTheme() === 'dark') {
 	                this.$container_wrap.addClass('clock_viz-darkmodez');
 	            }
 	            this.clockId = Math.round(Math.random() * 1000000);

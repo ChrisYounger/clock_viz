@@ -23,3 +23,4 @@ The following third-party libraries are used by this app. Thank you!
 * Moment.js - MIT - https://momentjs.com/
 * SVG Clock - MIT - https://github.com/simonrjones/svg-clock
 * Snap SVG - Apache2 - http://snapsvg.io/
+* Font Awesome - CC BY 4.0 License - https://fontawesome.com/
